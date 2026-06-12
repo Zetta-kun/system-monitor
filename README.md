@@ -25,3 +25,8 @@ chmod +x monitoring.sh
 
 # 3. Test edin
 ./monitoring.sh
+
+
+👨‍💻 Author
+
+Zetta-kun
