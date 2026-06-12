@@ -1,31 +1,28 @@
-# 🔧 Sistem Monitorinq Scripti
+🔧 System Monitoring Script
 
-Universal Linux sistem monitorinq scripti. Bütün Linux distribusiyalarında işləyir.
+Universal Linux system monitoring script. Works on all Linux distributions.
+📝 Features
 
-## 📝 Xüsusiyyətlər
+✅ Disk usage (warn if more than 80%)
+✅ RAM usage
+✅ CPU load (load average)
+✅ Most CPU-consuming processes
+✅ Service monitoring (nginx, mysql, docker)
+✅ Port monitoring
+✅ Write to log file
+✅ No special dependencies required
 
-- ✅ Disk istifadəsi (80%-dən çox olarsa xəbərdarlıq)
-- ✅ RAM istifadəsi
-- ✅ CPU yükü (load average)
-- ✅ Ən çox CPU istifadə edən proseslər
-- ✅ Servis yoxlaması (nginx, mysql, docker)
-- ✅ Port yoxlaması
-- ✅ Log faylına yazma
-- ✅ Heç bir xüsusi asılılıq tələb etmir
+🚀 Installation
 
-## 🚀 Quraşdırma
-
-```bash
-# 1. Reponu klonlayın
+# 1. Clone the repo
 git clone https://github.com/istifadeciadim/system-monitor.git
 cd system-monitor
 
-# 2. Script-i executable edin
+# 2. Make the script executable
 chmod +x monitoring.sh
 
-# 3. Test edin
+# 3. Test
 ./monitoring.sh
-
 
 👨‍💻 Author
 
